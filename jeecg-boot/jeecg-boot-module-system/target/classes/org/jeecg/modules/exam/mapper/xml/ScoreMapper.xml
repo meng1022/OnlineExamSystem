@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.exam.mapper.ScoreMapper">
+
+    <select id="queryByExamId" resultType="org.jeecg.modules.exam.vo.ScoreExamUserVo">
+        SELECT s.*, e.exam_name,e.session_name,u.realname,u.provcode,u.citycode
+         FROM exam_score s
+         LEFT JOIN exam_exam e ON s.exam_id = e.id
+         LEFT JOIN sys_user u ON s.user_id = u.id
+         WHERE s.exam_id  = #{examId}
+         <if test="provcode !=''">
+             AND  u.provcode =  #{provcode}
+         </if>
+         ORDER BY s.score DESC,s.submit_time ASC
+    </select>
+
+    <select id="queryByExamName" resultType="org.jeecg.modules.exam.vo.ScoreExamUserVo">
+        SELECT s.*, e.exam_name,e.session_name,u.realname,u.provcode,u.citycode
+        FROM exam_score s
+        LEFT JOIN exam_exam e ON s.exam_id = e.id
+        LEFT JOIN sys_user u ON s.user_id = u.id
+        WHERE e.exam_name = #{examName}
+        ORDER BY s.score DESC,s.submit_time ASC
+    </select>
+
+    <update id="setScore">
+        update exam_score set score = score1+score2
+    </update>
+    <select id = "getdata1" resultType="java.lang.Integer">
+        select count(1)
+        from exam_score
+        where exam_id = #{examId}
+        and  #{score2}>score and score>=#{score1}
+    </select>
+
+    <select id = "getdata2" resultType="java.lang.Integer">
+        select count(1)
+        from exam_score
+        where exam_id = #{examId}
+        and #{score2}>=score and score>=#{score1}
+    </select>
+
+
+
+</mapper>

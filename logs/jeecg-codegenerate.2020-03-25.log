@@ -1,0 +1,318 @@
+2020-03-25 17:55:19.545 [main] INFO  org.jeecg.JeecgApplication:50 - Starting JeecgApplication on LAPTOP-NFCJQSOI with PID 13152 (started by 123 in F:\毕业设计\exam_system\jeecg-boot)
+2020-03-25 17:55:19.559 [main] INFO  org.jeecg.JeecgApplication:679 - The following profiles are active: dev
+2020-03-25 17:55:24.470 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-25 17:55:24.476 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-25 17:55:24.575 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 76ms. Found 0 repository interfaces.
+2020-03-25 17:55:26.554 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$f2a38673] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:26.921 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.240 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.279 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.405 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d29e1cdd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.629 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.638 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3c2c8dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.652 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.660 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.693 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.708 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$e7b7db27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.884 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:28.989 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:29.008 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$3d720dbd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:29.060 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$e5b6fa8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:29.069 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 17:55:30.271 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2020-03-25 17:55:30.302 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-25 17:55:30.320 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2020-03-25 17:55:30.321 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-03-25 17:55:30.349 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-03-25 17:55:30.350 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 17:55:30.350 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 17:55:30.359 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-03-25 17:55:30.899 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/web-api]:173 - Initializing Spring embedded WebApplicationContext
+2020-03-25 17:55:30.899 [main] INFO  org.springframework.web.context.ContextLoader:296 - Root WebApplicationContext: initialization completed in 11247 ms
+2020-03-25 17:55:31.796 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:109 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2020-03-25 17:55:32.263 [main] INFO  com.alibaba.druid.pool.DruidDataSource:930 - {dataSource-1,master} inited
+2020-03-25 17:55:32.264 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:189 - 初始共加载 1 个数据源
+2020-03-25 17:55:32.265 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:135 - 动态数据源-加载 master 成功
+2020-03-25 17:55:32.266 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:198 - 当前的默认数据源是单数据源，数据源名为 master
+2020-03-25 17:55:34.634 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper:250 - Warn: Could not find @TableId in Class: org.jeecg.modules.exam.entity.Session.
+2020-03-25 17:55:38.071 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2020-03-25 17:55:38.086 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-03-25 17:55:38.086 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2020-03-25 17:55:38.092 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2020-03-25 17:55:38.095 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2020-03-25 17:55:38.096 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-03-25 17:55:38.097 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-03-25 17:55:38.098 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2020-03-25 17:55:38.098 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4eb3b690
+2020-03-25 17:55:40.249 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-25 17:55:40.627 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-25 17:55:41.165 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:55:44.161 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-03-25 17:55:44.194 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-03-25 17:55:44.252 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-03-25 17:55:44.635 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2020-03-25 17:55:44.638 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-03-25 17:55:44.640 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2020-03-25 17:55:44.659 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2020-03-25 17:55:44.677 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2020-03-25 17:55:44.680 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_2
+2020-03-25 17:55:44.682 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_2
+2020-03-25 17:55:44.684 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_1
+2020-03-25 17:55:44.686 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_2
+2020-03-25 17:55:44.698 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_1
+2020-03-25 17:55:44.710 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_3
+2020-03-25 17:55:44.713 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_3
+2020-03-25 17:55:44.716 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_3
+2020-03-25 17:55:44.718 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_2
+2020-03-25 17:55:44.720 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_3
+2020-03-25 17:55:44.729 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_2
+2020-03-25 17:55:44.755 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_4
+2020-03-25 17:55:44.757 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_4
+2020-03-25 17:55:44.758 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_4
+2020-03-25 17:55:44.760 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_3
+2020-03-25 17:55:44.771 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_3
+2020-03-25 17:55:44.794 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_5
+2020-03-25 17:55:44.798 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_5
+2020-03-25 17:55:44.799 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_5
+2020-03-25 17:55:44.801 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_4
+2020-03-25 17:55:44.803 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_4
+2020-03-25 17:55:44.818 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_4
+2020-03-25 17:55:44.841 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_6
+2020-03-25 17:55:44.843 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_6
+2020-03-25 17:55:44.844 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_6
+2020-03-25 17:55:44.846 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_5
+2020-03-25 17:55:44.857 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_5
+2020-03-25 17:55:44.866 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_5
+2020-03-25 17:55:44.870 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_6
+2020-03-25 17:55:44.879 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_7
+2020-03-25 17:55:44.881 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_7
+2020-03-25 17:55:44.883 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_7
+2020-03-25 17:55:44.885 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_6
+2020-03-25 17:55:44.896 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByExamIdUsingGET_1
+2020-03-25 17:55:44.898 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_6
+2020-03-25 17:55:44.906 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_7
+2020-03-25 17:55:44.909 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: submitUsingPOST_1
+2020-03-25 17:55:44.929 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2020-03-25 17:55:45.407 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-03-25 17:55:45.448 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-03-25 17:55:45.449 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2020-03-25 17:55:45.450 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2020-03-25 17:55:45.483 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2020-03-25 17:55:45.484 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-03-25 17:55:45.505 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-25 17:55:45.539 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path '/web-api'
+2020-03-25 17:55:45.543 [main] INFO  org.jeecg.JeecgApplication:59 - Started JeecgApplication in 27.242 seconds (JVM running for 30.326)
+2020-03-25 17:55:45.560 [main] INFO  org.jeecg.JeecgApplication:35 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8080/web-api/
+	External: 	http://192.168.66.1:8080/web-api/
+	swagger-ui: 	http://192.168.66.1:8080/web-api/swagger-ui.html
+	Doc: 		http://192.168.66.1:8080/web-api/doc.html
+----------------------------------------------------------
+2020-03-25 17:55:46.475 [RMI TCP Connection(6)-192.168.66.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/web-api]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 17:55:46.475 [RMI TCP Connection(6)-192.168.66.1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2020-03-25 17:55:46.509 [RMI TCP Connection(6)-192.168.66.1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 33 ms
+2020-03-25 17:55:48.558 [RMI TCP Connection(7)-192.168.66.1] WARN  o.s.boot.actuate.mail.MailHealthIndicator:89 - Mail health check failed
+javax.mail.AuthenticationFailedException: 535 Error: authentication failed
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:366)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:517)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:397)
+	at org.springframework.boot.actuate.mail.MailHealthIndicator.doHealthCheck(MailHealthIndicator.java:43)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:84)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:98)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:246)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:76)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:61)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:126)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:99)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor168.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-25 17:55:48.804 [RMI TCP Connection(7)-192.168.66.1] INFO  io.lettuce.core.EpollProvider:68 - Starting without optional epoll library
+2020-03-25 17:55:48.807 [RMI TCP Connection(7)-192.168.66.1] INFO  io.lettuce.core.KqueueProvider:70 - Starting without optional kqueue library
+2020-03-25 17:56:42.673 [http-nio-8080-exec-1] INFO  o.j.m.system.controller.SysPermissionController:120 -  ------ 通过令牌获取用户拥有的访问菜单 ---- TOKEN ------ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODUxMDgxMDUsInVzZXJuYW1lIjoic3VwZXJhZG1pbiJ9.a-qGyn1vJ6czCFH7Abw5yqfT5AmUZpM3H4xDzMNRqSw
+2020-03-25 17:57:21.739 [http-nio-8080-exec-7] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:57:21.863 [http-nio-8080-exec-7] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:121 - -------通过数据库读取用户拥有的角色Rules------username： superadmin,Roles size: 1
+2020-03-25 17:57:21.909 [http-nio-8080-exec-7] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:145 - -------通过数据库读取用户拥有的权限Perms------username： superadmin,Perms size: 3
+2020-03-25 17:57:21.917 [http-nio-8080-exec-7] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:57:21.925 [http-nio-8080-exec-7] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:57:21.937 [http-nio-8080-exec-7] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:57:21.966 [http-nio-8080-exec-7] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:57:21.972 [http-nio-8080-exec-7] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:57:22.003 [http-nio-8080-exec-7] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = a5b7f10fcac53106ae16c95a9590a708
+2020-03-25 17:59:21.198 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:21.206 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:21.214 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:21.220 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:21.226 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:21.234 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:21.243 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = 1673c7d6cd73df19efaf941f1186ec8e
+2020-03-25 17:59:27.370 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:27.374 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:27.379 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:27.384 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:27.390 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:27.393 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:27.401 [http-nio-8080-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = 6191880062c26a9ee1fda0bcaf98c42a
+2020-03-25 17:59:32.225 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:32.231 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:32.234 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:32.238 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:32.242 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:32.246 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:32.252 [http-nio-8080-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = b58326550958c38bb2c9a280ae29feae
+2020-03-25 17:59:45.302 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:45.307 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:45.312 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:45.314 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:45.318 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:45.322 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:45.329 [http-nio-8080-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = b64d4bab3ad489d44937a8eb6c4d8eea
+2020-03-25 17:59:52.456 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:52.460 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:52.466 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:52.470 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:52.473 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:52.477 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:52.481 [http-nio-8080-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = d6ac9edbc49094467ccd46c55fdcc1b4
+2020-03-25 17:59:55.194 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:55.198 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:55.202 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:55.207 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:55.211 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:55.219 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 17:59:55.224 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = f686ae09bf7ea8ab40b0810ac7067529
+2020-03-25 18:00:08.240 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:08.243 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:08.247 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:08.251 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:08.255 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:08.259 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:08.274 [http-nio-8080-exec-3] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = a5b7f10fcac53106ae16c95a9590a708
+2020-03-25 18:00:28.548 [http-nio-8080-exec-2] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:28.552 [http-nio-8080-exec-2] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:28.556 [http-nio-8080-exec-2] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:28.561 [http-nio-8080-exec-2] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:28.570 [http-nio-8080-exec-2] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:28.575 [http-nio-8080-exec-2] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:28.580 [http-nio-8080-exec-2] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:28.583 [http-nio-8080-exec-2] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:00:28.593 [http-nio-8080-exec-2] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->session_name = 病例分析
+2020-03-25 18:14:40.253 [http-nio-8080-exec-4] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:14:40.257 [http-nio-8080-exec-4] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:14:40.262 [http-nio-8080-exec-4] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:14:40.266 [http-nio-8080-exec-4] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:14:40.269 [http-nio-8080-exec-4] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:14:40.272 [http-nio-8080-exec-4] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:14:40.276 [http-nio-8080-exec-4] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = a5b7f10fcac53106ae16c95a9590a708
+2020-03-25 18:16:44.606 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:16:44.610 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:16:44.615 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:16:44.620 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:16:44.623 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:16:44.627 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:16:44.632 [http-nio-8080-exec-8] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = 1673c7d6cd73df19efaf941f1186ec8e
+2020-03-25 18:17:27.118 [http-nio-8080-exec-6] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:17:27.121 [http-nio-8080-exec-6] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:17:27.124 [http-nio-8080-exec-6] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:17:27.128 [http-nio-8080-exec-6] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:17:27.131 [http-nio-8080-exec-6] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:17:27.135 [http-nio-8080-exec-6] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 18:17:27.138 [http-nio-8080-exec-6] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = 1673c7d6cd73df19efaf941f1186ec8e
+2020-03-25 20:10:10.746 [http-nio-8080-exec-10] INFO  o.j.m.system.controller.SysPermissionController:120 -  ------ 通过令牌获取用户拥有的访问菜单 ---- TOKEN ------ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODUxMDgxMDUsInVzZXJuYW1lIjoic3VwZXJhZG1pbiJ9.a-qGyn1vJ6czCFH7Abw5yqfT5AmUZpM3H4xDzMNRqSw
+2020-03-25 20:10:11.945 [http-nio-8080-exec-1] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:10:11.953 [http-nio-8080-exec-1] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:121 - -------通过数据库读取用户拥有的角色Rules------username： superadmin,Roles size: 1
+2020-03-25 20:10:11.997 [http-nio-8080-exec-1] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:145 - -------通过数据库读取用户拥有的权限Perms------username： superadmin,Perms size: 3
+2020-03-25 20:10:12.002 [http-nio-8080-exec-1] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:10:12.009 [http-nio-8080-exec-1] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:10:12.012 [http-nio-8080-exec-1] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:10:12.016 [http-nio-8080-exec-1] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:10:12.018 [http-nio-8080-exec-1] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:12:47.522 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:12:47.526 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:12:47.530 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:12:47.538 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:12:47.542 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:12:47.546 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:18:00.526 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:18:00.532 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:18:00.535 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:18:00.539 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:18:00.543 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:18:00.550 [http-nio-8080-exec-5] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:18:00.555 [http-nio-8080-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = a5b7f10fcac53106ae16c95a9590a708
+2020-03-25 20:28:06.815 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:06.822 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:06.825 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:06.830 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:06.833 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:06.838 [http-nio-8080-exec-9] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:06.843 [http-nio-8080-exec-9] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = a5b7f10fcac53106ae16c95a9590a708
+2020-03-25 20:28:36.892 [http-nio-8080-exec-7] INFO  o.j.m.system.controller.SysPermissionController:120 -  ------ 通过令牌获取用户拥有的访问菜单 ---- TOKEN ------ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODUxMDgxMDUsInVzZXJuYW1lIjoic3VwZXJhZG1pbiJ9.a-qGyn1vJ6czCFH7Abw5yqfT5AmUZpM3H4xDzMNRqSw
+2020-03-25 20:28:37.761 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:37.766 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:37.770 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:37.775 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:37.782 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:37.789 [http-nio-8080-exec-8] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:40.969 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:40.973 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:40.977 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:40.983 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:40.986 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:40.990 [http-nio-8080-exec-10] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 20:28:40.995 [http-nio-8080-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:354 - --查询规则-->exam_id = a5b7f10fcac53106ae16c95a9590a708
+2020-03-25 21:31:45.973 [http-nio-8080-exec-1] INFO  o.j.m.system.controller.SysPermissionController:120 -  ------ 通过令牌获取用户拥有的访问菜单 ---- TOKEN ------ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODUxMDgxMDUsInVzZXJuYW1lIjoic3VwZXJhZG1pbiJ9.a-qGyn1vJ6czCFH7Abw5yqfT5AmUZpM3H4xDzMNRqSw
+2020-03-25 21:31:46.843 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 21:31:46.853 [http-nio-8080-exec-3] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:121 - -------通过数据库读取用户拥有的角色Rules------username： superadmin,Roles size: 1
+2020-03-25 21:31:46.873 [http-nio-8080-exec-3] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:145 - -------通过数据库读取用户拥有的权限Perms------username： superadmin,Perms size: 3
+2020-03-25 21:31:46.878 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 21:31:46.887 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 21:31:46.892 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 21:31:46.900 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 21:31:46.905 [http-nio-8080-exec-3] INFO  org.jeecg.modules.shiro.authc.ShiroRealm:60 - ————权限认证 [ roles、permissions]————
+2020-03-25 22:16:05.903 [Thread-55] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-03-25 22:16:05.918 [Thread-55] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 22:16:05.928 [Thread-55] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2020-03-25 22:16:05.928 [Thread-55] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-03-25 22:16:05.929 [Thread-55] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-03-25 22:16:05.931 [Thread-55] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-03-25 22:16:05.941 [Thread-55] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:175 - closing dynamicDatasource  ing....
+2020-03-25 22:16:06.079 [Thread-55] INFO  com.alibaba.druid.pool.DruidDataSource:1825 - {dataSource-1} closed

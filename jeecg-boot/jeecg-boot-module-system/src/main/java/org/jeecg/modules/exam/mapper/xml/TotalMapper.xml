@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.exam.mapper.TotalMapper">
+
+    <select id="queryPageListByExamName" resultType="org.jeecg.modules.exam.vo.TotalUserVo">
+        SELECT s.*, u.realname,u.orgname,u.provcode,u.citycode
+        FROM exam_total s
+        LEFT JOIN sys_user u ON s.user_id = u.id
+        WHERE s.exam_name  = #{examName}
+        <if test="provcode !=''">
+            AND  u.provcode =  #{provcode}
+        </if>
+        ORDER BY s.ranking ASC
+    </select>
+
+    <select id="queryListByExamName" resultType="org.jeecg.modules.exam.vo.TotalUserVo">
+        SELECT s.*, u.realname,u.orgname,u.provcode,u.citycode
+        FROM exam_total s
+        LEFT JOIN sys_user u ON s.user_id = u.id
+        WHERE s.exam_name  = #{examName}
+        <if test="provcode !=''">
+            AND  u.provcode =  #{provcode}
+        </if>
+        ORDER BY s.ranking ASC
+    </select>
+
+    <select id="queryListWithRank" resultType="org.jeecg.modules.exam.vo.TotalUserVo">
+        SELECT s.*, u.realname,u.orgname,u.provcode,u.citycode
+        FROM exam_total s
+        LEFT JOIN sys_user u ON s.user_id = u.id
+        WHERE s.exam_name  = #{examName} and s.ranking &gt;= #{start} and s.ranking &lt;= #{end}
+        ORDER BY s.ranking ASC
+    </select>
+
+</mapper>

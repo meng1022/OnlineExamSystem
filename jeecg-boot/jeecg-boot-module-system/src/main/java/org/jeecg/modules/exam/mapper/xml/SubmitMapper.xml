@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.exam.mapper.SubmitMapper">
+    <!-- 查询每场考试每位考生最后的提交 -->
+    <select id="getLastSubmitsByExamId" resultType="org.jeecg.modules.exam.entity.Submit">
+		select a.* from exam_submit a where  create_time = (select max(create_time) from exam_submit where exam_id= #{examId} and user_id = a.user_id)
+    </select>
+
+    <select id="queryByExamId" resultType="org.jeecg.modules.exam.vo.SubmitExamUserVo">
+        SELECT s.*, e.session_name,u.realname,u.provcode,u.citycode
+         FROM exam_submit s
+         LEFT JOIN exam_exam e ON s.exam_id = e.id
+         LEFT JOIN sys_user u ON s.user_id = u.id
+         WHERE s.exam_id  = #{examId}
+        <if test="provcode !=''">
+            AND  u.provcode =  #{provcode}
+        </if>
+         ORDER BY s.create_time desc
+    </select>
+
+    <delete id="deleteall">
+        delete from exam_submit where exam_id = #{examId}
+    </delete>
+</mapper>

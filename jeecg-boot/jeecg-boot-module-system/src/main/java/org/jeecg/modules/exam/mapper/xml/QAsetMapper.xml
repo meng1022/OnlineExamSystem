@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.exam.mapper.QAsetMapper">
+    <!-- 根据ExamId查询 -->
+    <select id="getQAsetByExamId" resultType="org.jeecg.modules.exam.entity.QAset">
+		select qaset from  exam_qaset  where exam_id = #{examId}
+	</select>
+
+    <!--  根据examId设置QASet -->
+    <update id="updateQASet">
+		UPDATE exam_qaset SET qaset = #{qASet} where exam_id = #{examId}
+	</update>
+
+</mapper>

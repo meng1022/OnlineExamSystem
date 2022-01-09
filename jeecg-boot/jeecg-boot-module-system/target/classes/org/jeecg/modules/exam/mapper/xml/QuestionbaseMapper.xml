@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.exam.mapper.QuestionbaseMapper">
+    <select id="queryQuestionsBySessionName" parameterType="String" resultType="org.jeecg.modules.exam.entity.Question1">
+		select * from exam_question1 where session_name = #{sessionName}
+	</select>
+
+	<select id="selectquestions" resultType="org.jeecg.modules.exam.entity.Question1">
+		select * from exam_question1 where session_name=#{sessionName}
+												and type=#{type}
+											<if test="score!=0">
+												and score=#{score}
+											</if>
+											<if test="hard!=-1">
+												and hard = #{hard}
+											</if>
+												order by rand()
+												limit #{number}
+	</select>
+
+
+</mapper>

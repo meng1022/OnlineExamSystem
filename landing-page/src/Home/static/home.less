@@ -1,0 +1,469 @@
+@import './default';
+@banner: banner;
+.page {
+  &-wrapper {
+    width: 100%;
+    margin: 120px auto;
+    will-change: transform;
+  }
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px;
+  margin: auto;
+  >h1 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+  }
+  >i {
+    background: url('//qiniu.hkangcloud.com/%E4%B8%89%E8%A7%92%E5%BD%A2%E5%9C%86%E5%BD%A2%E6%AD%A3%E6%96%B9%E5%BD%A2.svg') no-repeat center;
+    background-size: contain;
+    height: 12px;
+    display: block;
+    margin-bottom: 12px;
+  }
+}
+.@{banner} {
+  position: relative;
+  height: 772px;
+  text-align: center;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "PingFang SC", "Helvetica Neue For Number", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  &-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: rgb(13, 68, 188);
+    background: linear-gradient(135deg, rgba(13, 68, 188, 1) 0%, rgba(22, 140, 246, 1) 100%);
+    #svg-wrapper {
+      g {
+        transform-origin: 50%;
+      }
+    }
+  }
+  &-content {
+    width: 80%;
+    max-width: 845px;
+    height: 500px;
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 400;
+    will-change: transform;
+    position: relative;
+    z-index: 1;
+    //h1,
+    .cn-name1 {
+      color: white;
+      font-size: 21px;
+     /* padding-right: 15px;*/
+      span{
+        display: inline-block;
+      }
+    }
+    //h1,
+    .cn-name2 {
+      color: white;
+      font-size: 21px;
+      margin-bottom: 46px;
+      padding-right: 18px;
+      span{
+        display: inline-block;
+      }
+    }
+    .cn-name21 {
+      color: white;
+      font-size: 21px;
+      padding-right: 18px;
+      span{
+        display: inline-block;
+      }
+    }
+    h1 {
+      color: @banner-title-color;
+      //font-size: 68px;
+      line-height: 150px;
+      text-indent: 2px;
+      font-weight: 500;
+      margin: -60px auto 20px;
+      overflow: hidden;
+    }
+    .en-name {
+      display: block;
+      font-size: 14px;
+      line-height: 32px;
+      color: @banner-title-color;
+      font-weight: 300;
+    }
+    .cn-name {
+      color: @banner-title-color;
+      font-size: 24px;
+      overflow: hidden;
+      opacity: 0.8;
+    }
+    .home-button {
+      // margin: 72px auto 27px;
+      margin: 24px auto 0;
+      .ant-btn {
+        background: rgb(3, 67, 101);
+        background: -moz-linear-gradient(left, rgba(3, 67, 101, 1) 0%, rgba(0, 27, 51, 1) 100%);
+        background: linear-gradient(to right, rgba(3, 67, 101, 1) 0%, rgba(0, 27, 51, 1) 100%);
+        box-shadow: 0 8px 16px #0A52AB;
+        border: none;
+      }
+    }
+    .login-button {
+      // margin: 72px auto 27px;
+      margin: 24px auto 0;
+      .ant-btn {
+        background: rgb(101, 85, 50);
+        background: -moz-linear-gradient(left, rgba(101, 85, 50, 1) 0%, rgb(50, 9, 51,1) 100%);
+        background: linear-gradient(to right, rgba(101, 85, 50, 1) 0%, rgba(50, 9, 51, 1) 100%);
+        box-shadow: 0 8px 16px #330b16;
+        border: none;
+      }
+    }
+    .extra {
+      font-size: 18px;
+      line-height: 24px;
+      margin-top: 46px;//96px
+      color: @banner-title-color;
+    }
+    .extra1 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-top: 21px;//96px
+      color: @banner-title-color;
+    }
+  }
+}
+
+.page1 {
+  margin-top: 64px;
+  position: relative;
+  min-height: 878px;
+  &.page-wrapper {
+    width: calc(~"100% - 112px");
+    margin: 0 56px;
+    border-radius: 4px;
+    box-shadow: 0 32px 32px rgba(34, 94, 222, 0.08);
+    background: #fff;
+  }
+  .page {
+    margin-top: -220px;
+    overflow: hidden;
+    >i {
+      margin-top: 64px;
+    }
+  }
+  .content-wrapper {
+    margin-top: 72px;
+    >div {
+      margin-bottom: 60px;
+    }
+    .ant-col-sm-offset-1, .ant-col-sm-offset-3 {
+      clear: left;
+    }
+    .image-wrapper {
+      border-radius: 8px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        display: block;
+        &[src=""] {
+          background: linear-gradient(to top right, #D6DEFC, #fff);
+          padding-bottom: 100%;
+        }
+      }
+    }
+    h2 {
+      font-size: 20px;
+      color: @h2-color;
+      font-weight: 400;
+      margin: 24px auto 8px;
+      text-align: center;
+      white-space: nowrap;
+    }
+    p {
+      text-align: center;
+      white-space: nowrap;
+      font-size: 14px;
+    }
+  }
+}
+
+.page2 {
+  max-width: 572px;
+  min-height: 800px;
+  .title {
+    min-height: 80px;
+  }
+  .timeline {
+    margin-top: 96px;
+    position: relative;
+    min-height: 800px;
+    &:before {
+      display: block;
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 0;
+      height: ~"calc(100% - 108px)";
+      margin: 34px 0;
+      border-left: 2px #EBEDF0 dashed;
+    }
+    .block-wrapper {
+      display: flex;
+      position: relative;
+      margin-bottom: 70px;
+      >* {
+        display: inline-block;
+        will-change: transform;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .image-wrapper {
+      width: 50%;
+      display: inline-block;
+      text-align: center;
+      .image {
+        max-width: 98px;
+        width: 100%;
+        margin: auto;
+        img {
+          width: 100%;
+        }
+        &.double {
+          max-width: 184px;
+        }
+      }
+      .name {
+        margin: 16px 0 4px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, .85);
+        &+p {
+          font-size: 12px;
+        }
+      }
+    }
+    .point {
+      width: 11px;
+      height: 11px; // border-radius: 100%;
+      // border: 2px solid @primary-color;
+      // background: #fff;
+      background: url('//qiniu.hkangcloud.com/%E5%B0%8F%E4%B8%89%E8%A7%92%E5%BD%A2.svg') no-repeat 0 0;
+      position: absolute;
+      z-index: 2;
+      left: 50%;
+      top: 32px;
+      // margin: -4px 0 0 -5px;
+      margin-left: -5px;
+      &.start-or-end {
+        background-image: url('//qiniu.hkangcloud.com/%E5%B0%8F%E4%B8%89%E8%A7%92%E5%BD%A2.svg');
+        margin-left: -4px;
+      }
+      &.other {
+        background-image: url('//qiniu.hkangcloud.com/%E5%B0%8F%E5%9C%86.svg');
+        margin-left: -4px;
+      }
+    }
+    .content-wrapper {
+      width: 50%;
+      padding-left: 40px;
+      .time {
+        // color: @primary-color;
+        font-size: 12px;
+      }
+      h2 {
+        margin: 8px 0 12px;
+        font-size: 14px;
+      }
+      p {
+        color: #314659;
+        font-size: 12px;
+        width: 300px;
+      }
+    }
+  }
+}
+
+.page3,
+.page4,
+.page6 {
+  &.page-wrapper {
+    margin: 0;
+
+  }
+}
+
+//插画
+//.page4 {
+//  background: url('https://gw.alipayobjects.com/zos/rmsportal/ZsWYzLOItgeaWDSsXdZd.svg') no-repeat bottom;
+//  background-size: auto 524px;
+//  font-size: 14px;
+//  color: #314659;
+//  text-align: center;
+//  overflow: hidden;
+//  padding: 172px 0 0;
+//  max-width: 1420px;
+//  margin: 0 auto !important;
+//  min-height: 550px;
+//  h1 {
+//    font-size: 30px;
+//    line-height: 38px;
+//    margin: 14px auto 24px;
+//    color: #000;
+//  }
+//}
+
+.page3 {
+  height: 480px;
+  background: url(//qiniu.hkangcloud.com/map.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  .page {
+    max-width: inherit;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    transform: translateX(-50px);
+    cursor: pointer;
+  }
+  .map-tip {
+    position: absolute;
+    width: 330px;
+    background: #fff;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(13, 26, 38, 0.12);
+    transform: translateX(150px);
+    font-size: 14px;
+    h2 {
+      font-size: 16px;
+      color: #0D1A26;
+      margin-bottom: 8px;
+    }
+  }
+  #point-map {
+    animation: BeatAnim 2s ease-in-out infinite;
+  }
+  #shadow {
+    animation: ScaleAnim 2s ease-in-out infinite;
+    transform-origin: 50%;
+  }
+}
+
+.page6 {
+  //background: @sfooter-bg-color;
+  background: white;
+  padding: 80px 0 88px;
+  min-height: 464px;
+  .page {
+    max-width: 900px;
+  }
+  h1 {
+    color: #697B8C;
+  }
+  i {
+    filter: grayscale(1) brightness(1);
+  }
+  .ant-row {
+    text-align: center;
+    >div {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      height: 66px;
+      align-items: center;
+      width: 408px;
+      margin-right: 10px;
+
+    }
+  }
+}
+.page5 {
+  background: url(//qiniu.hkangcloud.com/page5.png) no-repeat center;
+  background-size: 100%;
+  margin: 0 auto;
+  height: 480px;
+  overflow: hidden;
+  i {
+    // margin: 78px 0 50px;
+    margin-top: 96px;
+    filter: grayscale(1) brightness(10);
+  }
+  h1 {
+    color: #fff;
+  }
+  p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 24px 0 100px;
+    text-align: center;
+    a {
+      color: #05CBFF;
+    }
+  }
+  .ant-btn, .ant-btn[disabled] {
+    box-shadow: 0 8px 16px #0554B7;
+    background: linear-gradient(to right, #05CBFF, #1E5AFF) !important;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    border: 0 !important;
+    border-radius: 21px;
+    color: #fff !important;
+    width: 128px;
+    cursor: pointer !important;
+    text-decoration: none !important;
+  }
+}
+
+@keyframes BeatAnim {
+  0%,
+  25%,
+  35%,
+  45% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(-30px);
+  }
+  30% {
+    transform: translateY(-15px);
+  }
+  40% {
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes ScaleAnim {
+  0%,
+  25%,
+  35%,
+  45% {
+    transform: scale(1);
+  }
+  15% {
+    transform: scale(0.5);
+  }
+  30% {
+    transform: scale(0.7);
+  }
+  40% {
+    transform: scale(0.9);
+  }
+}

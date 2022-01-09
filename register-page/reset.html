@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=drvice-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+	<title>诊疗技能竞赛密码找回</title>
+	<link rel="stylesheet" type="text/css" href="css/my-login.css">
+	<link rel="icon" href="//qiniu.hkangcloud.com/logo.png" />
+
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+	<link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="js/my-login.js"></script>
+	<link href="https://cdn.bootcss.com/bootstrap-validator/0.5.3/css/bootstrapValidator.min.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+	<script src="js/linkage.js"></script>
+</head>
+<body class="my-login-page">
+	<section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center h-100">
+				<div class="card-wrapper">
+					<div class="brand">
+						诊疗技能竞赛
+					</div>
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+					    <div class="modal-dialog" style="width: 300px;">
+					        <div class="modal-content">
+					            <div class="modal-header">
+					                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					                <h4 class="modal-title" id="myModalLabel">温馨提示</h4>
+					            </div>
+					            <div class="modal-body" id="alertText"></div>
+					            <div class="modal-footer">
+					                <button type="button" class="btn btn-primary" data-dismiss="modal">知道了</button>
+					            </div>
+					        </div><!-- /.modal-content -->
+					    </div><!-- /.modal -->
+					</div>
+					<div class="card fat">
+						<div class="card-body">
+							<div class="form-group m-0">
+								<a href="/" class="btn btn-primary btn-block">
+									返回首页
+								</a>
+							</div>
+							<h4 class="card-title">密码重置</h4>
+							<form method="POST" class="my-forgot-validation">
+								<div class="form-group">
+									<label for="name">手机号</label>
+									<input id="phone1" placeholder="" type="text" class="form-control" name="phone" autocomplete="tel">
+								</div>
+
+								<div class="form-group">
+									<input placeholder="请输入验证码" style="width: 70%;float: left" id="captcha1" placeholder="" type="text" class="form-control" name="captcha">
+									<input style="width: 30%;height: 42px;" id="capnumber1" type="button" value="发送验证码" class="btn btn-primary btn-sm" />
+								</div>
+
+								<div class="form-group">
+									<label for="password1">新密码</label>
+									<input id="password11" type="password" class="form-control" name="password1"data-eye>
+								</div>
+
+								<div class="form-group">
+									<label for="password2">密码确认</label>
+									<input id="password21" type="password" class="form-control" name="password2" data-eye>
+								</div>
+								<div class="form-group m-0">
+									<button class="btn btn-primary btn-block" id="Rest-modal">
+										确认
+									</button>
+								</div>
+
+								<div class="modal fade" id="ReTest" tabindex="-1" role="dialog" aria-hidden="true">
+									<div class="modal-dialog" style="width: 300px;">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" type="button" data-dismiss="modal">
+													<span>&times;</span>
+												</button>
+												<h4 class="modal-title">温馨提示</h4>
+												<div class="modal-body">
+													<p>请确认是否修改密码？</p>
+													<div class="modal-footer">
+														<button class="btn btn-primary" id="ReTest-yes">确定</button>
+														<button class="btn btn-danger" data-dismiss="modal">取消</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="modal fade" id="ReTest2" tabindex="-1" role="dialog" aria-hidden="true">
+									<div class="modal-dialog" style="width: 300px;">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" type="button" data-dismiss="modal">
+													<span>&times;</span>
+												</button>
+												<h4 class="modal-title">温馨提示</h4>
+												<div class="modal-body">
+													<p>密码重置信息有误，请核对！</p>
+													<div class="modal-footer">
+														<button class="btn btn-danger" data-dismiss="modal">知道了</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</form>
+						</div>
+					</div>
+					<div class="footer">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

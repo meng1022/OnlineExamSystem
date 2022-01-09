@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../:\interview\Resume\毕业设计\最终答辩\赵萌-基于web的在线考试系统设计与实现-演示及源代码\exam_system\jeecg-boot\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
