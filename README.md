@@ -86,6 +86,6 @@ The application frontend will be running at localhost:3000, and all request will
 ![scores](./img/scores.jpg)
 
 ### 10. Exam result analysis page
-![resultAnalysis](./img/resultAnalysis.jpg)
+![resultAnalysis](./img/resultanalysis.jpg)
 
 ### Pages and functions will be more clear when you run this application.
